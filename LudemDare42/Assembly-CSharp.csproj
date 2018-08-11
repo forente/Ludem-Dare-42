@@ -63,6 +63,10 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\CameraMovement.cs" />
     <Compile Include="Assets\_Scripts\CarController.cs" />
+    <Compile Include="Assets\_Scripts\PassengerAI.cs" />
+    <Compile Include="Assets\_Scripts\PickPassangers.cs" />
+    <Compile Include="Assets\_Scripts\zomRotation.cs" />
+    <None Include="Assets\Kenney Assets\Space Kit\License.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/richardcamara/Unity/playhouse-/ludem dare 42/Ludem-Dare-42/Ludem-Dare-42/LudemDare42/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{19524DB5-EA22-6A13-BDC8-7618F2C1A828}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/PickPassangers.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UIManager.cs">
     <Files>
       <File FileName="Assets/_Scripts/CarController.cs" Line="14" Column="6" />
       <File FileName="Assets/_Scripts/CameraMovement.cs" Line="19" Column="5" />
       <File FileName="Assets/_Scripts/zomRotation.cs" Line="14" Column="55" />
       <File FileName="Assets/_Scripts/PassengerAI.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/PickPassangers.cs" Line="7" Column="16" />
+      <File FileName="Assets/_Scripts/PickPassangers.cs" Line="22" Column="20" />
+      <File FileName="Assets/UIManager.cs" Line="9" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

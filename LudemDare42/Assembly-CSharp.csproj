@@ -65,6 +65,8 @@
     <Compile Include="Assets\_Scripts\CarController.cs" />
     <Compile Include="Assets\_Scripts\PassengerAI.cs" />
     <Compile Include="Assets\_Scripts\PickPassangers.cs" />
+    <Compile Include="Assets\_Scripts\UIManager.cs" />
+    <Compile Include="Assets\_Scripts\ZomAI.cs" />
     <Compile Include="Assets\_Scripts\zomRotation.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -99,7 +101,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\UIManager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Kenney Assets\Space Kit\License.txt" />

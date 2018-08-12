@@ -5,24 +5,26 @@ using TMPro;
 
 public class UIManager : MonoBehaviour {
 
-	TextMeshPro passengerCountText;
+	public GameObject passengerCount;
+	public TextMeshProUGUI countText;
 	public int maxCount;
 
 
 	// Use this for initialization
 	void Start () {
-		passengerCountText = GameObject.Find("PCount").GetComponent<TextMeshPro>();
+		passengerCount = GameObject.Find("Pcount text");
+		countText = passengerCount.GetComponent<TextMeshProUGUI>();
         
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+		//countText.text = "Updated test";
 	}
-
-	public void setMaxPassengers(int count){
-		maxCount = count;
-		passengerCountText.text = "Passengers: 0 / " + maxCount;
+    
+	public void setMaxPassengers(int count, int maxCount){
+		
+		countText.text = "Passengers: "+count+" / " + maxCount;
 	}
 
 

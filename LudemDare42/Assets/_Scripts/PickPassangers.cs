@@ -26,7 +26,7 @@ public class PickPassangers : MonoBehaviour {
 			if (PassengerCount < maxPassengerCount)
             {
                 PassengerCount++;
-                Debug.Log(PassengerCount);
+				_uIManager.setMaxPassengers(PassengerCount, maxPassengerCount);
                 Destroy(other.gameObject);
             }
 		}
